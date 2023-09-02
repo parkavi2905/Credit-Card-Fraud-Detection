@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREDIT CARD FRAUD DETECTION</title>
+    <style>
+        .main{text-align: center;margin: 90px 90px 0;}
+        form{margin-top: 100px;}
+        input{height: 27px;width: 170px;border: 1px solid;border-radius: 3px;padding: 1px 8px;}
+        button{width: 70px;height: 30px;border: 1px solid;border-radius: 3px;margin-left: 10px;}
+        body{ background-image: url("static/bc.jpg");
+        background-repeat: no-repeat;
+         background-color: #cccccc;
+         background-position:auto;
+         background-size: cover;}
+          
+    </style>
+</head>
+<body  >
+    <section class="main">
+        <h2 style="color:ghostwhite; font-size: 40px; font-family:fantasy">CREDIT CARD FRAUD DETECTION</h2>
+        <div class="cardno">
+            <form action="/predict" method="post">
+                <input type="text" name="card_no" placeholder="card number" maxlength="12">
+                
+                <button type="submit">Check</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
