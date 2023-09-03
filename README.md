@@ -24,14 +24,8 @@ Before you start, ensure you have the following prerequisites:
 
 #### Installation
 
-1. Clone the repository:
-   ```
-   bash
-   git clone https://github.com/parkavi2905/credit-card-fraud-detection.git\n
-   cd credit-card-fraud-detection
-   ```
-2. Run:
    ```
    cd credit-card-fraud-detection
    npm install
+   npm start
    ```
