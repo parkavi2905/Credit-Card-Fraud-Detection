@@ -20,7 +20,7 @@ Before you start, ensure you have the following prerequisites:
    ```
    git clone https://github.com/parkavi2905/Credit-Card-Fraud-Detection.git 
    ```
-2. Download the dataset: https://kaggle.com/datasets/mlg-ulb/creditcardfraud that will be used to train a transaction classifier. Unzip it and put the content (creditcard.csv) under main folder (Credit-Card-Fraud-Detection)
+2. [Download the dataset](https://kaggle.com/datasets/mlg-ulb/creditcardfraud) that will be used to train a transaction classifier. Unzip it and put the content (creditcard.csv) under main folder (Credit-Card-Fraud-Detection)
 
 3. install required python packages if previously not installed
 
